@@ -15,6 +15,7 @@
 
 ## 開設專案
 - 開新專案 ```npx create-react-app nctu_course```
+  - 如果 npm 版本 <= 5.1 請下 `npm install -g create-react-app` `create-react-app nctu_course`
 - ```cd nctu_course```
 - ```npm start```
 - 可以在 http://localhost:3000 看到初始頁面
