@@ -9,9 +9,9 @@ class CourseBox extends React.Component{
         {
           this.props.data.length > 0 ?
             this.props.data.map( (cos) => 
-              <CourseItem key={cos.id} info={cos.title} />
+              <CourseItem key={cos.id} info={cos.title} excerpt={cos.excerpt}/>
             )
-            : <span>{ this.props.msg }</span>
+            : <div className='msg text-center'>{ this.props.msg }</div>
         }
       </div>
     )
