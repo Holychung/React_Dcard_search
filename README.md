@@ -1,5 +1,7 @@
 # ReactJS Dcard API 文章搜尋 小實作
 
++ NCTU+ 2018暑訓教材
+
 ## 推薦編輯器
 - sublime
 ![](https://i.imgur.com/W7agBw2.png)
