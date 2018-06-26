@@ -23,7 +23,7 @@
 
 ## Conceptual
 
-洪寬圖Component 構想
+![](https://i.imgur.com/w0Ow7Dr.png)
 
 - App.js
 - Index.js
