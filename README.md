@@ -2,6 +2,8 @@
 
 + NCTU+ 2018暑訓教材
 
+![](https://i.imgur.com/XVvye1S.png)
+
 ## 推薦編輯器
 - sublime
 ![](https://i.imgur.com/W7agBw2.png)
