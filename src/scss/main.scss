@@ -1,0 +1,61 @@
+$theme-color: #006aa6;
+$vice-color: #00588a;
+$bg-color: #00324e;
+$nav-height: 52px;
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+a{
+    text-decoration: none;
+    color: white;
+    &:hover,&:active{
+        color:white;
+        text-decoration: none;
+    }
+}
+html, body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color:$bg-color;
+  font-size: 18px;
+}
+.nav{
+    width: 100%;
+    height: $nav-height;
+    background-color: $theme-color;
+    margin-bottom: 2rem;
+    .nav-item{
+        display: inline-block;
+        height: inherit;
+        width: 15vw;
+        margin-right: 10px;
+        color:white;
+        line-height: $nav-height;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 200;
+        cursor: pointer;
+        &:hover{
+            background-color: $vice-color;
+        }
+        &.active{
+            background-color: $vice-color;
+        }
+    }
+}
+
+.msg{
+    font-size: 1.5rem;
+    margin: 5px;
+    color: #eee;
+}
+
+.card{
+    color:#222;
+    background: #fff;
+    .title{
+        background-color: #eee;
+        font-size: 1.2rem;
+    }
+    .content{
+        font-size: 1.1rem;
+    }
+}

@@ -34,7 +34,7 @@ class PageSearch extends React.Component{
     const HOST = 'https://www.dcard.tw/_api/search/posts'
     let param = `?forum=${this.state.forum}&query=${this.state.searchWord}`
 
-    this.updateMessage('查詢課程中...')
+    this.updateMessage('查詢貼文中...')
 
     fetch(HOST + param)
     .then(response => {
