@@ -6,6 +6,7 @@ class SearchBar extends React.Component{
 		this.state={
 			dropdownTitle: '看板選擇'
 		}
+		this.updateDropdownTitle = this.updateDropdownTitle.bind(this)
 	}
 	updateDropdownTitle(t){
 		this.setState({ dropdownTitle: t })
