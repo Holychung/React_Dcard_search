@@ -14,7 +14,7 @@ const Home = () => (
     <h1 className='text-center'>This is HomePage</h1>
     <div className='mt-5 text-center'>
       <Link to='/search'>
-        <button className='btn btn-success'><h3>Let's search !</h3></button>
+        <button className='btn btn-success'><h3>Let&#39;s search !</h3></button> {/* &#39; means ' */}
       </Link>
     </div>
   </div>
