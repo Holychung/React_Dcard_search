@@ -19,7 +19,7 @@
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-`brew install npm`
+`brew install node`
 
 ## 開設專案
 - 開新專案 ```npx create-react-app nctu_course```
@@ -134,6 +134,7 @@ fetch(HOST + param)
 ## CourseBox
 
 + 三元運算
+  + ( 條件 )? (如果條件正確回傳此值) : (如果條件錯誤回傳此值)
 + map function 回傳陣列
 
 ```jsx=
