@@ -15,6 +15,11 @@
 [Uninstall node npm](https://askubuntu.com/questions/786015/how-to-remove-nodejs-from-ubuntu-16-04)
 [Install node npm latest](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/#)
 
+- for mac
+
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`brew install npm`
+
 ## 開設專案
 - 開新專案 ```npx create-react-app nctu_course```
   - 如果 npm 版本 <= 5.1 請下 `npm install -g create-react-app` `create-react-app nctu_course`
