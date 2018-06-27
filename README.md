@@ -147,3 +147,18 @@ fetch(HOST + param)
     }
 </div>
 ```
+
+## For SCSS hot reload
+
+* `npm install node-sass`
+
+   `npm install nodemon`
+* 加入script
+  * scss 路徑 : `src/scss/main.scss`
+  * transpile後的 css 路徑 : `public/main.css`
+  * 在`package.json` 的 `scripts` 的地方加入
+    ```
+      "build-css": "node-sass --include-path scss src/scss/main.scss public/main.css",
+      "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    ```
+* `npm run watch-css`
