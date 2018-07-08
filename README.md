@@ -164,3 +164,17 @@ fetch(HOST + param)
       "watch-css": "nodemon -e scss -x \"npm run build-css\""
     ```
 * `npm run watch-css`
+
+## 靜態網頁部署
+
+- npm run build
+- build/* 放入server根目錄
+- 交大工作站放置個人網頁教學
+
+https://help.cs.nctu.edu.tw/help/index.php?title=%E7%B6%B2%E9%A0%81_-_%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81
+
+
+### 如果不在網域根目錄
+- 設定server root: package.json加入: "homepage" : "http://people.cs.nctu.edu.tw/~XXXX/"
+- 修改Router Path:
+  - path={`${process.env.PUBLIC_URL}/search`}
